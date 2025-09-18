@@ -1,0 +1,33 @@
+/* [project]/src/frontend/components/Footer.module.css [client] (css) */
+.Footer-module__MTV1iq__footer {
+  color: #fff;
+  background: #1a237e;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1.2rem 0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, .07);
+}
+
+.Footer-module__MTV1iq__content {
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1rem;
+  display: flex;
+}
+
+.Footer-module__MTV1iq__links a {
+  color: #90caf9;
+  margin: 0 .5rem;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.Footer-module__MTV1iq__links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=src_frontend_components_Footer_module_css_65f1660e._.single.css.map*/

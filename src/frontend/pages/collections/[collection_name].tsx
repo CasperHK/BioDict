@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import DashboardLayout from '../../components/DashboardLayout';
-import OrganismsLayout from '../../components/OrganismsLayout';
+import OrganismsLayout from '../../layouts/OrganismsLayout';
 import styles from '../organisms.module.css';
 
 const organismsData = [

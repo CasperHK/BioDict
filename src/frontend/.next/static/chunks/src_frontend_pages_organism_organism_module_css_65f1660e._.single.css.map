@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/frontend/pages/organism/organism.module.css"],"sourcesContent":[".detailContainer {\r\n  max-width: 700px;\r\n  margin: 2.5rem auto;\r\n  padding: 2rem 1.5rem;\r\n  background: #fff;\r\n  border-radius: 1rem;\r\n  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);\r\n}\r\n.detailContainer h1 {\r\n  color: #1976d2;\r\n  margin-bottom: 1rem;\r\n}\r\n.detailContainer p {\r\n  font-size: 1.1rem;\r\n  margin: 0.5rem 0;\r\n}\r\n.notFound {\r\n  max-width: 600px;\r\n  margin: 3rem auto;\r\n  padding: 2rem 1.5rem;\r\n  background: #fff3e0;\r\n  border-radius: 1rem;\r\n  text-align: center;\r\n  color: #b71c1c;\r\n  box-shadow: 0 2px 12px rgba(183, 28, 28, 0.08);\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;AAQA;;;;;AAIA;;;;;AAIA"}}]
+}

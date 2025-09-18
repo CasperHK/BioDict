@@ -1,0 +1,69 @@
+/* [project]/src/frontend/components/Hero.module.css [client] (css) */
+.Hero-module__UzR-gG__hero {
+  color: #fff;
+  box-sizing: border-box;
+  background: linear-gradient(120deg, #1976d2 0%, #64b5f6 100%);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60vh;
+  padding: 3rem 1rem 2rem;
+  display: flex;
+}
+
+.Hero-module__UzR-gG__content {
+  text-align: center;
+  max-width: 700px;
+}
+
+.Hero-module__UzR-gG__content h1 {
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.Hero-module__UzR-gG__content p {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.Hero-module__UzR-gG__actions {
+  justify-content: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.Hero-module__UzR-gG__cta {
+  color: #1976d2;
+  background: #fff;
+  border-radius: 2rem;
+  padding: .8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s, color .2s;
+}
+
+.Hero-module__UzR-gG__cta:hover {
+  color: #fff;
+  background: #90caf9;
+}
+
+.Hero-module__UzR-gG__ctaSecondary {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  padding: .8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s, color .2s;
+}
+
+.Hero-module__UzR-gG__ctaSecondary:hover {
+  color: #1976d2;
+  background: #fff;
+}
+
+/*# sourceMappingURL=src_frontend_components_Hero_module_f43418e8.css.map*/

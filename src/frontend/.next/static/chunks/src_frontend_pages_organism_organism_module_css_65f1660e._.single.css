@@ -1,0 +1,32 @@
+/* [project]/src/frontend/pages/organism/organism.module.css [client] (css) */
+.organism-module__Scuyhq__detailContainer {
+  background: #fff;
+  border-radius: 1rem;
+  max-width: 700px;
+  margin: 2.5rem auto;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, .08);
+}
+
+.organism-module__Scuyhq__detailContainer h1 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.organism-module__Scuyhq__detailContainer p {
+  margin: .5rem 0;
+  font-size: 1.1rem;
+}
+
+.organism-module__Scuyhq__notFound {
+  text-align: center;
+  color: #b71c1c;
+  background: #fff3e0;
+  border-radius: 1rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 12px rgba(183, 28, 28, .08);
+}
+
+/*# sourceMappingURL=src_frontend_pages_organism_organism_module_css_65f1660e._.single.css.map*/

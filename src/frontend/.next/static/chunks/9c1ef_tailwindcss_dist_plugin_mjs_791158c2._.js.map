@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///F:/Workspace/projects/BioDict/node_modules/.pnpm/tailwindcss%404.1.13/node_modules/tailwindcss/dist/plugin.mjs"],"sourcesContent":["function g(i,n){return{handler:i,config:n}}g.withOptions=function(i,n=()=>({})){function t(o){return{handler:i(o),config:n(o)}}return t.__isOptionsFunction=!0,t};var u=g;export{u as default};\n"],"names":[],"mappings":";;;;AAAA,SAAS,EAAE,CAAC,EAAC,CAAC;IAAE,OAAM;QAAC,SAAQ;QAAE,QAAO;IAAC;AAAC;AAAC,EAAE,WAAW,GAAC,SAAS,CAAC;QAAC,IAAA,iEAAE,IAAI,CAAC,CAAC,CAAC;IAAG,SAAS,EAAE,CAAC;QAAE,OAAM;YAAC,SAAQ,EAAE;YAAG,QAAO,EAAE;QAAE;IAAC;IAAC,OAAO,EAAE,mBAAmB,GAAC,CAAC,GAAE;AAAC;AAAE,IAAI,IAAE","ignoreList":[0],"debugId":null}}]
+}

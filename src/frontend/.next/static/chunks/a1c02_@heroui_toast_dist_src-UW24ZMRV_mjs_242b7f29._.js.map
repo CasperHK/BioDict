@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///F:/Workspace/projects/BioDict/src/frontend/node_modules/.pnpm/%40heroui%2Btoast%402.0.16_beo2hdrzbh5rx6rxv6xbh5cen4/node_modules/%40heroui/toast/dist/src-UW24ZMRV.mjs"],"sourcesContent":["\"use client\";\n\n// ../../utilities/dom-animation/src/index.ts\nimport { domAnimation } from \"framer-motion\";\nvar src_default = domAnimation;\nexport {\n  src_default as default\n};\n"],"names":[],"mappings":";;;;AAEA,6CAA6C;AAC7C;AAHA;;AAIA,IAAI,cAAc,mTAAY","ignoreList":[0],"debugId":null}}]
+}

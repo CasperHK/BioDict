@@ -1,28 +1,41 @@
 {
-  "polyfillFiles": [
-    "static/chunks/polyfills.js"
-  ],
-  "devFiles": [
-    "static/chunks/fallback/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/fallback/webpack.js",
-    "static/chunks/fallback/amp.js"
-  ],
-  "lowPriorityFiles": [],
-  "rootMainFiles": [],
-  "rootMainFilesTree": {},
   "pages": {
     "/_app": [
-      "static/chunks/fallback/webpack.js",
-      "static/chunks/fallback/main.js",
-      "static/chunks/fallback/pages/_app.js"
+      "static/chunks/355a7_next_dist_compiled_next-devtools_index_d800d63c.js",
+      "static/chunks/355a7_next_dist_compiled_2f97a01f._.js",
+      "static/chunks/355a7_next_dist_shared_lib_e80e075c._.js",
+      "static/chunks/355a7_next_dist_client_e528819a._.js",
+      "static/chunks/355a7_next_dist_48c58e0f._.js",
+      "static/chunks/355a7_next_link_6d0e6be0.js",
+      "static/chunks/2712b_react-dom_cb5926e1._.js",
+      "static/chunks/b5835__pnpm_aaaaab69._.js",
+      "static/chunks/[root-of-the-server]__2305008a._.js",
+      "static/chunks/src_frontend_components_821beb93._.css",
+      "static/chunks/src_frontend_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-src_frontend_pages__app_0eab6517._.js"
     ],
     "/_error": [
-      "static/chunks/fallback/webpack.js",
-      "static/chunks/fallback/main.js",
-      "static/chunks/fallback/pages/_error.js"
+      "static/chunks/355a7_next_dist_compiled_next-devtools_index_d800d63c.js",
+      "static/chunks/355a7_next_dist_compiled_2f97a01f._.js",
+      "static/chunks/355a7_next_dist_shared_lib_86369634._.js",
+      "static/chunks/355a7_next_dist_client_b2542554._.js",
+      "static/chunks/355a7_next_dist_29096b96._.js",
+      "static/chunks/355a7_next_error_c52388cb.js",
+      "static/chunks/[next]_entry_page-loader_ts_0adfc857._.js",
+      "static/chunks/2712b_react-dom_cb5926e1._.js",
+      "static/chunks/b5835__pnpm_63747f75._.js",
+      "static/chunks/[root-of-the-server]__a55ae8bd._.js",
+      "static/chunks/src_frontend_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-src_frontend_pages__error_81620022._.js"
     ]
   },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [],
   "ampFirstPages": []
 }

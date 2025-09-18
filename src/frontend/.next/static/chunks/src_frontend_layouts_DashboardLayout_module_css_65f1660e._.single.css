@@ -1,0 +1,15 @@
+/* [project]/src/frontend/layouts/DashboardLayout.module.css [client] (css) */
+.DashboardLayout-module__YVuIta__dashboardRoot {
+  background: #f5f7fa;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+.DashboardLayout-module__YVuIta__dashboardContent {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_frontend_layouts_DashboardLayout_module_css_65f1660e._.single.css.map*/

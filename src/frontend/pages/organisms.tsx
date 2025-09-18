@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import DashboardLayout from '../components/DashboardLayout';
-import OrganismsLayout from '../components/OrganismsLayout';
+import DashboardLayout from '../layouts/DashboardLayout';
+import OrganismsLayout from '../layouts/OrganismsLayout';
 import styles from './organisms.module.css';
 
 // Example data structure for organisms

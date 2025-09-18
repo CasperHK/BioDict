@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/frontend/components/TopNavBar.module.css"],"sourcesContent":[".navbar {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  z-index: 1000;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  background: #1a237e;\r\n  color: #fff;\r\n  padding: 0.75rem 2rem;\r\n  box-shadow: 0 2px 8px rgba(0,0,0,0.07);\r\n}\r\n.logo span {\r\n  font-size: 1.5rem;\r\n  font-weight: bold;\r\n  letter-spacing: 1px;\r\n  color: #fff;\r\n  text-decoration: none;\r\n}\r\n.navLinks {\r\n  list-style: none;\r\n  display: flex;\r\n  gap: 2rem;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.navLinks li a {\r\n  color: #fff;\r\n  text-decoration: none;\r\n  font-size: 1rem;\r\n  transition: color 0.2s;\r\n}\r\n.navLinks li a:hover {\r\n  color: #90caf9;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;AAcA;;;;;;;;AAOA;;;;;;;;AAOA;;;;;;;AAMA"}}]
+}

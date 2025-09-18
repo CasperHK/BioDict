@@ -1,0 +1,155 @@
+/* [project]/src/frontend/pages/organisms.module.css [client] (css) */
+.organisms-module__ksIqrW__container {
+  background: #fff;
+  border-radius: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, .08);
+}
+
+.organisms-module__ksIqrW__title {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 1.5rem;
+}
+
+.organisms-module__ksIqrW__search {
+  border: 1px solid #90caf9;
+  border-radius: 2rem;
+  outline: none;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  padding: .7rem 1rem;
+  font-size: 1rem;
+  transition: border .2s;
+  display: block;
+}
+
+.organisms-module__ksIqrW__search:focus {
+  border: 2px solid #1976d2;
+}
+
+.organisms-module__ksIqrW__list {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  display: grid;
+}
+
+.organisms-module__ksIqrW__card {
+  background: #e3f2fd;
+  border-radius: .8rem;
+  padding: 1.2rem;
+  transition: box-shadow .2s;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, .07);
+}
+
+.organisms-module__ksIqrW__card:hover {
+  box-shadow: 0 4px 16px rgba(25, 118, 210, .13);
+}
+
+.organisms-module__ksIqrW__card h3 {
+  color: #1565c0;
+  margin: 0 0 .5rem;
+}
+
+.organisms-module__ksIqrW__card p {
+  margin: .2rem 0;
+}
+
+.organisms-module__ksIqrW__welcomeSection {
+  text-align: center;
+  background: #e3f2fd;
+  border-radius: 1rem;
+  max-width: 900px;
+  margin: 2rem auto 1.5rem;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 1px 6px rgba(25, 118, 210, .07);
+}
+
+.organisms-module__ksIqrW__welcomeSection h2 {
+  color: #1976d2;
+  margin-bottom: .7rem;
+}
+
+.organisms-module__ksIqrW__welcomeSection p {
+  color: #333;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.organisms-module__ksIqrW__pageLayout {
+  background: #f5f7fa;
+  flex-direction: row;
+  min-height: 100vh;
+  display: flex;
+}
+
+.organisms-module__ksIqrW__sideMenuLeft, .organisms-module__ksIqrW__sideMenuRight {
+  box-sizing: border-box;
+  background: #e3f2fd;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 220px;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+}
+
+.organisms-module__ksIqrW__sideMenuLeft nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.organisms-module__ksIqrW__sideMenuLeft nav ul li {
+  margin-bottom: 1.2rem;
+}
+
+.organisms-module__ksIqrW__sideMenuLeft nav ul li a {
+  color: #1976d2;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.organisms-module__ksIqrW__sideMenuLeft nav ul li a:hover {
+  color: #0d47a1;
+}
+
+.organisms-module__ksIqrW__mainContent {
+  flex-direction: column;
+  flex: 1;
+  align-items: stretch;
+  min-width: 0;
+  padding: 2rem;
+  display: flex;
+}
+
+.organisms-module__ksIqrW__infoBox {
+  color: #333;
+  background: #fffde7;
+  border-radius: .8rem;
+  margin-top: 2rem;
+  padding: 1.2rem;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, .07);
+}
+
+.organisms-module__ksIqrW__infoBox h4 {
+  color: #fbc02d;
+  margin: 0 0 .5rem;
+}
+
+@media (max-width: 1100px) {
+  .organisms-module__ksIqrW__sideMenuLeft, .organisms-module__ksIqrW__sideMenuRight {
+    display: none;
+  }
+
+  .organisms-module__ksIqrW__mainContent {
+    padding: 2rem .5rem;
+  }
+}
+
+/*# sourceMappingURL=src_frontend_pages_organisms_module_css_65f1660e._.single.css.map*/
