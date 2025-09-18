@@ -1,0 +1,62 @@
+.pageLayout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+.sideMenuLeft, .sideMenuRight {
+  width: 220px;
+  background: #e3f2fd;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.sideMenuLeft nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sideMenuLeft nav ul li {
+  margin-bottom: 1.2rem;
+}
+.sideMenuLeft nav ul li a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: color 0.2s;
+}
+.sideMenuLeft nav ul li a:hover {
+  color: #0d47a1;
+}
+.mainContent {
+  flex: 1;
+  padding: 2rem 2rem 2rem 2rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.infoBox {
+  background: #fffde7;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.07);
+  margin-top: 2rem;
+  color: #333;
+}
+.infoBox h4 {
+  margin: 0 0 0.5rem 0;
+  color: #fbc02d;
+}
+@media (max-width: 1100px) {
+  .sideMenuLeft, .sideMenuRight {
+    display: none;
+  }
+  .mainContent {
+    padding: 2rem 0.5rem;
+  }
+}

@@ -1,0 +1,26 @@
+.detailContainer {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+}
+.detailContainer h1 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+.detailContainer p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+.notFound {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff3e0;
+  border-radius: 1rem;
+  text-align: center;
+  color: #b71c1c;
+  box-shadow: 0 2px 12px rgba(183, 28, 28, 0.08);
+}

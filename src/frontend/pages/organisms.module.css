@@ -1,0 +1,130 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+}
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1976d2;
+}
+.search {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+  padding: 0.7rem 1rem;
+  border: 1px solid #90caf9;
+  border-radius: 2rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.search:focus {
+  border: 2px solid #1976d2;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  background: #e3f2fd;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.07);
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.13);
+}
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1565c0;
+}
+.card p {
+  margin: 0.2rem 0;
+}
+.welcomeSection {
+  max-width: 900px;
+  margin: 2rem auto 1.5rem auto;
+  padding: 1.5rem 1rem;
+  background: #e3f2fd;
+  border-radius: 1rem;
+  box-shadow: 0 1px 6px rgba(25, 118, 210, 0.07);
+  text-align: center;
+}
+.welcomeSection h2 {
+  color: #1976d2;
+  margin-bottom: 0.7rem;
+}
+.welcomeSection p {
+  color: #333;
+  font-size: 1.1rem;
+  margin: 0;
+}
+.pageLayout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+.sideMenuLeft, .sideMenuRight {
+  width: 220px;
+  background: #e3f2fd;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.sideMenuLeft nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sideMenuLeft nav ul li {
+  margin-bottom: 1.2rem;
+}
+.sideMenuLeft nav ul li a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: color 0.2s;
+}
+.sideMenuLeft nav ul li a:hover {
+  color: #0d47a1;
+}
+.mainContent {
+  flex: 1;
+  padding: 2rem 2rem 2rem 2rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.infoBox {
+  background: #fffde7;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.07);
+  margin-top: 2rem;
+  color: #333;
+}
+.infoBox h4 {
+  margin: 0 0 0.5rem 0;
+  color: #fbc02d;
+}
+@media (max-width: 1100px) {
+  .sideMenuLeft, .sideMenuRight {
+    display: none;
+  }
+  .mainContent {
+    padding: 2rem 0.5rem;
+  }
+}
